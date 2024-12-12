@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 10px 0;
+    color: #333;
+    font-weight: 700;
+}
+
+.header p {
+    color: #777;
+    font-weight: 300;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    color: #555;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.skill-item, .hobby-item {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: 300;
+    color: #00796b;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .header img {
+        width: 100%;
+        height: auto;
+    }
+
+    .skill-item, .hobby-item {
+        margin: 5px 0;
+    }
+}
